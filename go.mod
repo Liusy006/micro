@@ -4,21 +4,19 @@ go 1.14
 
 require (
 	github.com/coreos/etcd v3.3.25+incompatible // indirect
-	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/go-log/log v0.2.0 // indirect
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/golang/protobuf v1.4.3
-	github.com/google/uuid v1.1.2 // indirect
-	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/lucas-clemente/quic-go v0.18.1 // indirect
 	github.com/marten-seemann/qtls-go1-15 v0.1.1 // indirect
 	github.com/micro/go-micro v1.18.0
+	github.com/micro/go-plugins/registry/consul v0.0.0-20200119172437-4fe21aa238fd
+	github.com/micro/go-plugins/registry/etcdv3 v0.0.0-20200119172437-4fe21aa238fd
 	github.com/micro/micro/v3 v3.0.0-beta.7 // indirect
 	github.com/miekg/dns v1.1.33 // indirect
 	github.com/nats-io/jwt v1.0.1 // indirect
 	github.com/nats-io/nats.go v1.10.0 // indirect
 	github.com/nats-io/nkeys v0.2.0 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.16.0 // indirect
 	golang.org/x/crypto v0.0.0-20201012173705-84dcc777aaee // indirect

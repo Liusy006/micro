@@ -7,6 +7,7 @@ import (
 	proto "go-micro/proto"
 
 	micro "github.com/micro/go-micro"
+	"github.com/micro/go-plugins/registry/etcdv3"
 )
 
 type User struct{}
@@ -17,8 +18,10 @@ func (u *User) Hello(ctx context.Context, req *proto.Request, reps *proto.Respon
 }
 
 func main() {
+	reg := etcdv3.NewRegistry()
 	service := micro.NewService(
 		micro.Name("user"),
+		micro.Registry(reg),
 	)
 
 	service.Init()
